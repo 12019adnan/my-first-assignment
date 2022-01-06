@@ -1,5 +1,5 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -20,7 +20,7 @@ body{
 }
  /* h1 tag****** */
 .color-added{
-    color: rgb(136, 131, 64);
+    color: lightcoral;
     font-size: 40px;
 }
 .color-over{
@@ -42,6 +42,7 @@ body{
     border-image:linear-gradient(salmon,tomato);
     border-image-slice: 1;
     padding-left: 15px;
+   
     
    }
 
@@ -76,13 +77,17 @@ body{
   .goal{
     
     border-radius: 20px;
-    background-color: rgba(204, 170, 132, 0.349);
-    width: 25%;
+    background-color:rgba(223, 159, 159, 0.383);
+    width: 22%;
     margin-right: 20px;
     margin-left: 120px;
     padding-left: 20px;
     
-}
+    
+    }
+
+/* ***** */
+
 .h1-moving{
     text-align: center;
     margin-top: 100px;
@@ -100,6 +105,7 @@ body{
   .close-up{
       margin-right: 200px;
       margin-top: 20px;
+      max-width: 500px;
   }
   .coding-container{
       margin-left: 100px;
@@ -117,10 +123,12 @@ body{
 
 #meeting{
     width: 65%;
+    margin-left: 40px
     
 }
 #text-padding{
     padding-left: 100px;
+    max-width: 600px;
    
 }
 .document{
@@ -129,3 +137,60 @@ body{
     border-radius: 3px;
     padding: 10px;
 }
+    /* new image add  */
+
+    .features-update{
+        color: lightcoral;
+    }
+   
+    .new-box-added{
+        font-size: large;
+        font-weight:800;
+        border-radius: 20px;
+        box-shadow: 10px 10px 40px gray;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        padding: 20px;
+      
+    }
+
+    #update-data{
+        padding: 40px;
+    }
+    .flex-content{
+        display: flex;
+        border-radius: 20px;
+        
+    }
+    
+
+/* _______________________ */
+.application{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    }
+.application-span{
+    color:rgba(126, 65, 170, 0.555)  ;
+}
+.end-assignment{
+    
+    
+    font-weight:800;
+    text-align: center;
+    background-color: rgba(235, 131, 131, 0.548)  ;
+    height: 80px;
+    padding: 30px;
+    
+     
+    }
+
+    .end-span{
+        color:rgba(126, 65, 170, 0.281) ;
+    }
+    .end-paragraph{
+        font-size: xx-large;  
+    }
+   
