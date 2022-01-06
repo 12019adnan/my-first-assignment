@@ -1,0 +1,131 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* image************ */
+
+.images-setup{
+    width: 50%;
+    
+    margin-right: 50px;
+   margin-left: 200px;
+}
+.flex-section{
+    
+    display: flex;
+    margin-top: 100px;
+    margin-left:100px ;
+}
+ /* h1 tag****** */
+.color-added{
+    color: rgb(136, 131, 64);
+    font-size: 40px;
+}
+.color-over{
+    color:rgba(126, 65, 170, 0.555);
+}
+.edit-text{
+    padding-top: 50px;
+    padding-right:5px;
+}
+.explor-now{
+    background-color:rgba(126, 65, 170, 0.555);
+    text-decoration: none;
+    padding: 10px ;
+    border-radius: 3px;
+   }
+
+   #rainbow-line{
+    border-left: 4px solid;
+    border-image:linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+    padding-left: 15px;
+    
+   }
+
+
+   /* second slot image width setup */
+   .image-width{
+       width: 50%;
+             
+   }
+   /* section flexible-content ***** */
+    .flexible-content{
+       
+        display: flex;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    /* all illustrator set-up */
+    .mission{
+        /* box-shadow: 5px 5px 5px gray;
+        border-radius: 20px ; */
+        width: 20%;
+        margin-left: 80px;
+        
+    }
+  .vission{
+      /* box-shadow: 5px 5px 5px gray;
+      border-radius: 20px; */
+      width: 20%;
+      margin-left: 120px;
+      
+  }
+  .goal{
+    
+    border-radius: 20px;
+    background-color: rgba(204, 170, 132, 0.349);
+    width: 25%;
+    margin-right: 20px;
+    margin-left: 120px;
+    padding-left: 20px;
+    
+}
+.h1-moving{
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+    }
+    /* 3rd container */
+.coding-container{
+    width: 70%;
+}
+
+    .developer-limit{
+        display: flex;
+        margin-bottom: 100px;
+    }
+  .close-up{
+      margin-right: 200px;
+      margin-top: 20px;
+  }
+  .coding-container{
+      margin-left: 100px;
+  }
+.read-container{
+    background-color:rgba(126, 65, 170, 0.555) ;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+    
+ /* 4th container &&&&&&&  */
+
+#meeting{
+    width: 65%;
+    
+}
+#text-padding{
+    padding-left: 100px;
+   
+}
+.document{
+    background-color:rgba(126, 65, 170, 0.555) ;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+}
